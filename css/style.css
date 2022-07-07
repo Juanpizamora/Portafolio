@@ -1,0 +1,271 @@
+:root {
+    --fuenteparrafo: 'Open Sans', sans-serif;
+    --fuenteparrafo2: 'Tajawal', sans-serif;
+    --fuenteheading: 'Bebas Neue', cursive;
+    --fuenteheading2: 'Staatliches', cursive;
+    --fuentebebas: 'Bebas Neue', cursive;
+    --colorprincipal: rgb(121, 29, 196);
+    --colorsecundario: #a635f2;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+.cabezera {
+  /* background-color: var(--colorprincipal); */
+  width: 100%;
+  height: 730px;
+}
+.contenedor {
+    background: linear-gradient(90deg, rgba(125,35,186,1) 0%, rgba(127,36,188,1) 36%, rgba(164,47,212,1) 98%);
+    margin-top: 0;
+    padding: 19px;
+}
+
+.navegacion-enlace {
+    height: 18px;
+    text-align: end;
+    font-family: var(--fuenteparrafo);
+}
+
+
+.enlace {
+    background-color: linear-gradient(90deg, rgba(170,32,176,1) 0%, rgba(106,31,171,1) 100%);
+    padding: 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.enlace:hover {
+    background-color:  white;
+    color: #a635f2;
+}
+
+.texto-medio {
+    padding: 160px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, rgba(125,35,186,1) 0%, rgba(127,36,188,1) 36%, rgba(164,47,212,1) 98%);
+
+}
+
+
+.nombre {
+    padding: 0;
+    font-size: 7.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.profesion {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:relative;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+
+
+.resumen {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.titulo-sobremi {
+    text-align: center;
+    color: var(--colorprincipal);
+    font-size: 4.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+    margin-top: -120px;
+}
+
+.contenido-sobremi {
+    display: flex;
+    text-align: center;
+    padding: 5rem;
+    margin: 0;
+}
+
+.informacion-sobremi {
+    text-align: start;
+    padding-top: 0rem;
+    padding-left: 15rem;
+    font-size: 2.5rem;
+    word-spacing: 0.5rem;
+    line-height: 4rem;
+    font-family: var(--fuenteparrafo2);
+}
+
+.imagen {
+    margin: 3rem auto;
+    margin-left: 2rem;
+    padding-top: 0rem;
+    height: 25rem;
+    border-radius: 100%;
+}
+
+.contenedor-habilidades {
+    width: 100%;
+    height: 500px;
+    background-color: #e7e8e9;
+}
+
+
+/** Skills Y Hobbies **/
+
+.skills-hobbies {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(218, 218, 218);
+    height: 450px;
+}
+
+.skills {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.contenedor-skills {
+    background-color: #f3f4f5;
+    width: 40rem;
+    height: 200px;
+    border-radius: 1rem;
+    border-style: outset;
+    border-left: 6px solid var(--colorprincipal);
+    border-top: 6px solid var(--colorprincipal);
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+}
+
+.lista-skills {
+    margin: 35px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Tajawal', sans-serif;
+    line-height: 3rem;
+    word-wrap: 2rem;
+}
+
+.lista-hobbies {
+
+    margin: 50px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Tajawal', sans-serif;
+    line-height: 3rem;
+    word-wrap: 2rem;
+
+}
+
+.contenedor-hobbies {
+    background-color: #ffffff;
+    width: 40rem;
+    height: 200px;
+    border-radius: 1rem;
+    border-width: 2px;
+    border-left: 6px solid var(--colorprincipal);
+    border-top: 6px solid  var(--colorprincipal);
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+
+}
+
+/** Footer **/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(125,35,186,1) 0%, rgba(127,36,188,1) 36%, rgba(164,47,212,1) 98%);
+    height: 7rem;
+}
+
+.icons {
+    width: 40px;
+    margin-top: 15px;
+}
+
+.linkedin {
+    width: 50px;
+    height: 50px;
+    margin-top: 11px;
+
+}
+
+/** Contacto **/
+
+.fondo {
+    background-color: #e2e2e2;
+}
+
+/** Formulario de contacto **/
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 3rem;
+}
+.nombre_completo {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.nombre-contacto,
+.apellido-contacto,
+.email-contacto {
+    width: 250px;
+    height: 30px;
+    font-family: var(--fuenteparrafo2);
+    font-size: 1.3rem;
+}
+
+.texto-area {
+    margin-left: 2rem;
+    font-family: var(--fuenteparrafo2);
+    font-size: 1.3rem;
+}
+textarea {
+    width: 755px;
+}
+
+input:hover,
+textarea:hover {
+    border: 2px solid var(--colorsecundario);
+}
+
+.boton {
+    width: 200px;
+    height: 40px;
+    margin-left: 30rem;
+    margin-top: 2rem;
+    background: linear-gradient(90deg, rgba(125,35,186,1) 0%, rgba(127,36,188,1) 36%, rgba(164,47,212,1) 98%);
+    color: white;
+    border: 2px solid;
+    font-family: var(--fuenteparrafo2);
+    font-size: 1.5rem;
+}
+
+.boton:hover {
+    background: rgb(205, 172, 236);
+}
