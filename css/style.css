@@ -154,6 +154,7 @@ html {
 .lista-skills {
     margin: 35px;
     margin-left: 15px;
+    margin-top: 20px;
     text-align: center;
     font-size: 2rem;
     font-family: 'Tajawal', sans-serif;
@@ -217,55 +218,99 @@ html {
 .formulario {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
-h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin: 3rem;
-}
-.nombre_completo {
-    width: 100%;
-    text-align: center;
-    padding: 2rem;
+.contenedor-contacto {
+    -webkit-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.35);
+    -moz-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.35);
+    box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.35);
+    width: 30rem;
+    height: 50rem;
+    background: linear-gradient(90deg, rgba(125,35,186,1) 0%, rgba(127,36,188,1) 36%, rgba(164,47,212,1) 98%);
+    margin: 7rem;
+    
+
 }
 
-.nombre-contacto,
-.apellido-contacto,
-.email-contacto {
-    width: 250px;
-    height: 30px;
+.contenedor-datos {
+    -webkit-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.35);
+    -moz-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.35);
+    box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.35);
+    background-color: white;
+    width: 50rem;
+    height: 50rem;
+    margin: 7rem;
+    margin-left: -8rem;
+}
+
+.img-email {
+      height: 20rem ;
+      margin: 5rem;
+      margin-top: 7rem;
+      margin-bottom: 3rem;
+}
+
+
+.nombre-email {
+    font-size: 1.5rem;
+    color: white;
+    margin: 4rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
     font-family: var(--fuenteparrafo2);
-    font-size: 1.3rem;
 }
 
-.texto-area {
-    margin-left: 2rem;
+.telefono-email {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
     font-family: var(--fuenteparrafo2);
-    font-size: 1.3rem;
-}
-textarea {
-    width: 755px;
 }
 
-input:hover,
-textarea:hover {
-    border: 2px solid var(--colorsecundario);
+.titulo-form {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-family: var(--fuenteparrafo2);
+    color: var(--colorprincipal)
 }
-
-.boton {
-    width: 200px;
-    height: 40px;
-    margin-left: 30rem;
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem;
+    width: 40rem;
     margin-top: 2rem;
+}
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--colorprincipal);
+    color:  black;
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    color: black;
+    padding: 1.5rem;
+    border: 1px solid var(--colorprincipal);
+    margin-top: 3rem;
+
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1rem;
+    border: none;
     background: linear-gradient(90deg, rgba(125,35,186,1) 0%, rgba(127,36,188,1) 36%, rgba(164,47,212,1) 98%);
     color: white;
-    border: 2px solid;
-    font-family: var(--fuenteparrafo2);
-    font-size: 1.5rem;
-}
-
-.boton:hover {
-    background: rgb(205, 172, 236);
+    font-family: var(--fuenteparrafo);
+    font-size: 1.3rem;
+    border-radius: 20px;
+    margin-top: 3rem;
 }
