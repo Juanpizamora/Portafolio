@@ -24,7 +24,8 @@ html {
   height: 730px;
 }
 .contenedor {
-    background: linear-gradient(90deg, rgba(125,35,186,1) 0%, rgba(127,36,188,1) 36%, rgba(164,47,212,1) 98%);
+    background: rgb(186,35,112);
+    background: linear-gradient(90deg, rgba(172,35,186,1) 24%, rgba(131,2,184,1) 59%, rgba(131,2,184,1) 73%, rgba(131,2,184,1) 100%);
     margin-top: 0;
     padding: 19px;
 }
@@ -37,7 +38,7 @@ html {
 
 
 .enlace {
-    background-color: linear-gradient(90deg, rgba(170,32,176,1) 0%, rgba(106,31,171,1) 100%);
+    background-color: linear-gradient(90deg, rgba(172,35,186,1) 24%, rgba(131,2,184,1) 59%, rgba(131,2,184,1) 73%, rgba(131,2,184,1) 100%);
     padding: 20px;
     font-size: 1.5rem;
     text-decoration: none;
@@ -56,8 +57,7 @@ html {
     width: 100%;
     text-align: center;
     color: white;
-    background: linear-gradient(90deg, rgba(125,35,186,1) 0%, rgba(127,36,188,1) 36%, rgba(164,47,212,1) 98%);
-
+    background: linear-gradient(90deg, rgba(172,35,186,1) 24%, rgba(131,2,184,1) 59%, rgba(131,2,184,1) 73%, rgba(131,2,184,1) 100%);
 }
 
 
@@ -144,6 +144,7 @@ html {
     background-color: #f3f4f5;
     width: 40rem;
     height: 200px;
+    margin-left: -2rem;
     border-radius: 1rem;
     border-style: outset;
     border-left: 6px solid var(--colorprincipal);
@@ -191,7 +192,7 @@ html {
 .footer {
     display: flex;
     justify-content: center;
-    background: linear-gradient(90deg, rgba(125,35,186,1) 0%, rgba(127,36,188,1) 36%, rgba(164,47,212,1) 98%);
+    background: linear-gradient(90deg, rgba(172,35,186,1) 24%, rgba(131,2,184,1) 59%, rgba(131,2,184,1) 73%, rgba(131,2,184,1) 100%);
     height: 7rem;
 }
 
@@ -226,7 +227,7 @@ html {
     box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.35);
     width: 30rem;
     height: 50rem;
-    background: linear-gradient(90deg, rgba(125,35,186,1) 0%, rgba(127,36,188,1) 36%, rgba(164,47,212,1) 98%);
+    background: linear-gradient(90deg, rgba(172,35,186,1) 24%, rgba(131,2,184,1) 59%, rgba(131,2,184,1) 73%, rgba(131,2,184,1) 100%);
     margin: 7rem;
     
 
@@ -307,7 +308,7 @@ html {
     padding: 10px 20px;
     margin: 1rem;
     border: none;
-    background: linear-gradient(90deg, rgba(125,35,186,1) 0%, rgba(127,36,188,1) 36%, rgba(164,47,212,1) 98%);
+    background: linear-gradient(90deg, rgba(172,35,186,1) 24%, rgba(131,2,184,1) 59%, rgba(131,2,184,1) 73%, rgba(131,2,184,1) 100%);
     color: white;
     font-family: var(--fuenteparrafo);
     font-size: 1.3rem;
