@@ -19,10 +19,17 @@ html {
 }
 
 .cabezera {
-  /* background-color: var(--colorprincipal); */
   width: 100%;
   height: 730px;
 }
+
+@media (min-width: 1440px) {
+    .cabezera {
+        height: 1050px;
+    }
+    
+}
+
 .contenedor {
     background: rgb(186,35,112);
     background: linear-gradient(90deg, rgba(172,35,186,1) 24%, rgba(131,2,184,1) 59%, rgba(131,2,184,1) 73%, rgba(131,2,184,1) 100%);
@@ -60,6 +67,12 @@ html {
     background: linear-gradient(90deg, rgba(172,35,186,1) 24%, rgba(131,2,184,1) 59%, rgba(131,2,184,1) 73%, rgba(131,2,184,1) 100%);
 }
 
+@media (min-width: 1440px) {
+    .texto-medio {
+        height: 750px;
+    }
+    
+}
 
 .nombre {
     padding: 0;
@@ -93,6 +106,18 @@ html {
     margin-top: -120px;
 }
 
+@media (min-width: 1440px) {
+    .titulo-sobremi {
+        margin-bottom: 5rem;
+    }
+    
+}
+@media (min-width: 1440px) {
+    .fondo-sobremi {
+        height: 60rem;
+    }
+    
+}
 .contenido-sobremi {
     display: flex;
     text-align: center;
@@ -110,6 +135,13 @@ html {
     font-family: var(--fuenteparrafo2);
 }
 
+@media (min-width: 1440px) {
+    .informacion-sobremi {
+        font-size: 3.5rem;
+    }
+    
+}
+
 .imagen {
     margin: 3rem auto;
     margin-left: 2rem;
@@ -117,6 +149,7 @@ html {
     height: 25rem;
     border-radius: 100%;
 }
+
 
 .contenedor-habilidades {
     width: 100%;
@@ -134,16 +167,29 @@ html {
     height: 450px;
 }
 
+@media (min-width: 1440px) {
+    .skills-hobbies {
+        height: 600px;
+    }
+}
+
 .skills {
     margin-top: 5rem;
     margin-bottom: 5rem;
     font-size: 3rem;
 }
+@media (min-width: 1440px) {
+    .skills {
+        margin-top: 10rem;
+        font-size: 5rem;
+    }
+    
+}
 
 .contenedor-skills {
     background-color: #f3f4f5;
     width: 40rem;
-    height: 200px;
+    height: 20rem;
     margin-left: -2rem;
     border-radius: 1rem;
     border-style: outset;
@@ -152,6 +198,12 @@ html {
     box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
 }
 
+@media (min-width: 1440px) {
+    .contenedor-skills{
+        width: 50rem;
+        height: 25rem;
+    }
+}
 .lista-skills {
     margin: 35px;
     margin-left: 15px;
@@ -161,6 +213,14 @@ html {
     font-family: 'Tajawal', sans-serif;
     line-height: 3rem;
     word-wrap: 2rem;
+}
+
+@media (min-width: 1440px) {
+    .lista-skills {
+        margin-top: 4rem;
+        font-size: 2.3rem;
+    }
+    
 }
 
 .lista-hobbies {
@@ -175,6 +235,14 @@ html {
 
 }
 
+@media (min-width: 1440px) {
+    .lista-hobbies {
+        margin-top: 8rem;
+        font-size: 2.3rem;
+    }
+    
+}
+
 .contenedor-hobbies {
     background-color: #ffffff;
     width: 40rem;
@@ -185,6 +253,13 @@ html {
     border-top: 6px solid  var(--colorprincipal);
     box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
 
+}
+
+@media (min-width: 1440px) {
+    .contenedor-hobbies{
+        width: 50rem;
+        height: 25rem;
+    }
 }
 
 /** Footer **/
@@ -214,6 +289,7 @@ html {
     background-color: #e2e2e2;
 }
 
+
 /** Formulario de contacto **/
 
 .formulario {
@@ -229,8 +305,15 @@ html {
     height: 50rem;
     background: linear-gradient(90deg, rgba(172,35,186,1) 24%, rgba(131,2,184,1) 59%, rgba(131,2,184,1) 73%, rgba(131,2,184,1) 100%);
     margin: 7rem;
-    
+}
 
+@media (min-width: 1440px) {
+    .contenedor-contacto {
+        margin-top: 20rem;
+        height: 55rem;
+    }
+
+    
 }
 
 .contenedor-datos {
@@ -242,6 +325,15 @@ html {
     height: 50rem;
     margin: 7rem;
     margin-left: -8rem;
+}
+
+@media (min-width: 1440px) {
+    .contenedor-datos {
+        margin-top: 20rem;
+        height: 55rem;
+    }
+
+    
 }
 
 .img-email {
